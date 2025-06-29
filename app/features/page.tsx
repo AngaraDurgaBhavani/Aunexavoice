@@ -3,7 +3,7 @@
 export default function Third() {
     return (
         <div className="bg-[#f6edf7] bg-gradient-to-l from-purple-200 via-pink-200">
-            {/* Heading */}
+
             <div className="flex justify-center w-full pt-2">
                 <button className="bg-gray-50 rounded-xl text-xs p-1 font-mono border-gray-500 shadow-md w-28 mb-2 hover:bg-white/30 backdrop-opacity-[0.5] cursor-pointer">KEY FEATURES</button>
             </div>
@@ -12,10 +12,10 @@ export default function Third() {
                 <p className="text-3xl font-serif">Powerful AI Voice Engine, Built<br /> for Real Use</p>
             </div>
 
-            {/* Section 1 */}
+
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 px-4">
                 <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 mb-4 lg:mb-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center">
-                 <img src="mic1.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
+                    <img src="mic1.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
                     <h1 className="mb-4 mt-2">Human-like Voice Generation</h1>
                     <p className="text-xs text-gray-500 pb-28">Aunexa.ai uses advanced neural synthesis to deliver voices that sound  natural, expressive, and emotionally.</p>
                     <button className="bg-white rounded-[4px] font-sans text-xs p-1 border border-gray-300 shadow-md cursor-pointer">Try Demo</button>
@@ -25,7 +25,7 @@ export default function Third() {
                 </div>
             </div>
 
-            {/* Section 2 */}
+
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mt-2 px-4">
                 <div className="h-[300px] max-w-sm w-full pt-8 bg-gradient-to-br from-gray-50 to-violet-100">
                     <div className="flex flex-wrap justify-center gap-4">
@@ -51,7 +51,7 @@ export default function Third() {
                 </div>
             </div>
 
-            {/* Section 3 */}
+
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mt-4 px-4">
                 <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 max-w-sm w-full h-[300px] flex flex-col items-center text-center">
                     <img src="paste.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
@@ -64,7 +64,7 @@ export default function Third() {
                 </div>
             </div>
 
-            {/* Section 4 */}
+
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mt-4 px-4 pb-10">
                 <div className="bg-gradient-to-br from-gray-100 to-violet-100 max-w-sm w-full h-[300px] flex justify-center items-center">
                     <img src="ball1.png" className="h-32 w-[250px]" />
@@ -77,7 +77,7 @@ export default function Third() {
                 </div>
             </div>
 
-            {/* Final CTA */}
+
             <div className="text-center mt-10">
                 <h1 className="text-4xl font-serif mb-5">Discover AI Voice as Your Daily<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Needs Assistant</h1>
                 <div className="flex justify-center mb-10">
@@ -85,7 +85,6 @@ export default function Third() {
                 </div>
             </div>
 
-            {/* Final Block */}
             <div className="flex flex-col lg:flex-row justify-center items-start gap-6 px-4 pb-20">
                 <div className="ml-4 md:ml-8 lg:ml-12">
                     <h1 className="font-serif text-xl">Create Without Limits</h1>

@@ -1,10 +1,9 @@
 
-
 export default function About() {
   return (
     <div className="bg-gradient-to-r from-violet-200 to-pink-200 min-h-[90vh] flex items-center">
       <div className="flex flex-col lg:flex-row items-center justify-between w-full px-4 lg:px-36 py-2">
-        {/* Text Section */}
+
         <div className="text-center lg:text-left mb-6 lg:mb-0">
           <h1 className="text-3xl md:text-4xl font-serif mb-2">
             From Scripts to Speech <br /> Instantly.
@@ -21,7 +20,7 @@ export default function About() {
           </div>
         </div>
 
-        {/* Image Section */}
+
         <div className="w-full max-w-md">
           <img src="bal.png" alt="Illustration" className="w-full h-auto" />
         </div>
@@ -29,41 +28,6 @@ export default function About() {
     </div>
   );
 }
-
-
-
-
-
-// export default function About() {
-//   return (
-//     <div className="bg-gradient-to-r from-violet-200 to-pink-200 min-h-[80vh] flex items-center">
-//       <div className="flex flex-col lg:flex-row items-center justify-between w-full px-4 lg:px-24 py-1">
-//         {/* Text Section */}
-//         <div className="text-center lg:text-left mb-4 lg:mb-0">
-//           <h1 className="text-3xl md:text-4xl font-serif mb-1">
-//             From Scripts to Speech <br /> Instantly.
-//           </h1>
-//           <p className="text-sm text-gray-500 mb-3">
-//             Whether you're a creator, developer, or enterprise – Izuna gives <br className="hidden md:inline" />
-//             you the voice tools to do more, faster.
-//           </p>
-//           <div className="flex flex-col sm:flex-row items-center gap-2 justify-center lg:justify-start">
-//             <button className="bg-black text-white text-sm px-4 py-2 rounded shadow">
-//               Get Started
-//             </button>
-//             <p className="text-sm text-gray-700">Talk to Sales</p>
-//           </div>
-//         </div>
-
-//         {/* Image Section */}
-//         <div className="w-full max-w-sm">
-//           <img src="bal.png" alt="Illustration" className="w-full h-auto" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 
 
 
