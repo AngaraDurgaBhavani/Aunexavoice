@@ -5,10 +5,10 @@ export default function About() {
       <div className="flex flex-col lg:flex-row items-center justify-between w-full px-4 lg:px-36 py-2">
 
         <div className="text-center lg:text-left mb-6 lg:mb-0">
-          <h1 className="text-3xl md:text-4xl font-serif mb-2">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif mb-2">
             From Scripts to Speech <br /> Instantly.
           </h1>
-          <p className="text-sm text-gray-500 mb-4">
+          <p className="text-sm text-gray-500 md:mb-8 md:text-xl">
             Whether you're a creator, developer, or enterprise – Aunexa gives <br className="hidden md:inline" />
             you the voice tools to do more, faster.
           </p>
@@ -16,7 +16,7 @@ export default function About() {
             <button className="bg-black text-white text-sm px-4 py-2 rounded shadow hover:bg-violet-400 cursor-pointer">
               Get Started
             </button>
-            <p className="text-sm text-gray-700">Talk to Sales</p>
+            <p className="text-sm text-gray-700 md:text-xl">Talk to Sales</p>
           </div>
         </div>
 

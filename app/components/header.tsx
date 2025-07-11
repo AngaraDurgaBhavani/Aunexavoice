@@ -20,7 +20,7 @@ export default function Header() {
 
           <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
 
-          <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center  lg:w-auto`}>
+          <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
             <div className="lg:flex lg:justify-center">
               <Link href="/">
                 <Button text="Home" />

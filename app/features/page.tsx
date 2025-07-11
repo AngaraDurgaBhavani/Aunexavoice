@@ -4,7 +4,7 @@ export default function Third() {
     return (
         <div className="bg-[#f6edf7] bg-gradient-to-l from-purple-200 via-pink-200">
 
-            <div className="flex justify-center w-full pt-2">
+            <div className="flex justify-center w-full pt-8 mb-2">
                 <button className="bg-gray-50 rounded-xl text-xs p-1 font-mono border-gray-500 shadow-md w-28 mb-2 hover:bg-white/30 backdrop-opacity-[0.5] cursor-pointer">KEY FEATURES</button>
             </div>
 
@@ -14,10 +14,10 @@ export default function Third() {
 
 
             <div className="flex flex-col lg:flex-row justify-center items-center gap-4 px-4">
-                <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 mb-4 lg:mb-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center">
+                <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 mb-4 lg:mb-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center md:pl-5 md:pr-5">
                     <img src="mic1.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
-                    <h1 className="mb-4 mt-2">Human-like Voice Generation</h1>
-                    <p className="text-xs text-gray-500 pb-28">Aunexa.ai uses advanced neural synthesis to deliver voices that sound  natural, expressive, and emotionally.</p>
+                    <h1 className="mb-5 mt-3 md:text-xl">Human-like Voice Generation</h1>
+                    <p className="text-xs text-gray-500 pb-20 md:text-sm">Aunexa.ai uses advanced neural synthesis to deliver voices that sound  natural, expressive, and emotionally.</p>
                     <button className="bg-white rounded-[4px] font-sans text-xs p-1 border border-gray-300 shadow-md cursor-pointer">Try Demo</button>
                 </div>
                 <div className="bg-gradient-to-br from-gray-100 to-violet-100 max-w-sm w-full h-[300px] flex justify-center items-center">
