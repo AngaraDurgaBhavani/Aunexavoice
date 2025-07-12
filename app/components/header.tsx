@@ -11,12 +11,12 @@ export default function Header() {
 
 
   return (
-    <header>
-      <div className="bg-[#f6edf7]  bg-gradient-to-l from-purple-200 via-pink-200 h-11">
-        <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] py-0.5 flex-wrap w-full">
+    <header className="bg-gradient-to-r from-purple-50 via-pink-200 to-pink-200 pt-3 pb-3" >
+      <div className="h-14">
+        <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] py-0.5 flex-wrap w-full ">
           <span className="flex">
             <img src="voice.jpg" width={25} height={20} />
-            <span><p className="ml-1.5">Aunexa.AI</p></span></span>
+            <span><p className="ml-1.5 md:text-2xl">Aunexa.AI</p></span></span>
 
           <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
 
@@ -38,7 +38,7 @@ export default function Header() {
                 <Button text="About" />
               </Link>
               <div className="pt-1">
-                <button className="bg-white text-sm text-gray-600 rounded-[4px] translate-y-1 ml-10 p-1 cursor-pointer hover:bg-violet-100">Get  Started</button>
+                <button className="bg-white text-sm text-gray-800 rounded-[4px] translate-y-[-3px] ml-10 md:ml-20 px-4 py-2 cursor-pointer hover:bg-violet-100 md:text-xl">Get  Started</button>
               </div>
             </div>
           </nav>

@@ -26,7 +26,7 @@ export default function Page() {
                 </div>
 
 
-                <div className="w-full lg:w-[480px] xl:w-[520px] bg-gradient-to-br from-slate-50 to-purple-200 rounded-2xl border border-gray-200 shadow-lg shadow-gray-300 p-4 lg:mr-20 mt-6 lg:mt-0 md:p-5 lg:p-8">
+                <div className="w-full lg:w-[480px] xl:w-[520px] bg-gradient-to-br from-slate-50 to-purple-200 rounded-2xl border border-gray-200 shadow-lg shadow-gray-300  p-4  md:mr-60 lg:pl-5 lg:pr-5 lg:mr-20 mt-6 lg:mt-0  md:p-5 lg:p-8">
 
                     <div className="flex flex-wrap gap-2 mb-4">
                         <Secondbutton text="Arabic" />
@@ -45,18 +45,18 @@ export default function Page() {
 
 
                     <div className="mt-4">
-                        <div className="flex justify-between text-gray-500 text-sm mb-2 lg:p-2">
-                            <h2>Voiceover</h2>
+                        <div className="flex  text-gray-500 text-sm mb-2 lg:p-2">
+                            <h2 className="lg:mr-40 mr-8">Voiceover</h2>
                             <h2>Style and Carrying</h2>
                         </div>
-                        <div className="flex flex-col sm:flex-row gap-2">
+                        <div className="flex flex-col md:flex-row gap-2">
                             <button className="bg-white flex items-center text-xs sm:text-sm p-2 rounded-[4px] w-full sm:w-[48%]">
                                 <img src="walk.jpg" className="h-6 w-6 mr-2" />
-                                <span className="flex-1">Walker</span>
+                                <span className="flex-1 cursor-pointer">Walker</span>
                                 <img src="menu.png" className="h-6 w-6" />
                             </button>
                             <button className="bg-white flex items-center text-xs sm:text-sm p-1 rounded-[4px] w-full sm:w-[48%]">
-                                <span className="flex-1">Formal and Professional</span>
+                                <span className="flex-1 cursor-pointer">Formal and Professional</span>
                                 <img src="menu.png" className="h-6 w-6" />
                             </button>
                         </div>
@@ -64,8 +64,8 @@ export default function Page() {
 
 
                     <div className="mt-5">
-                        <button className="bg-black text-white flex items-center justify-center text-xs sm:text-sm p-2 rounded-[4px] w-full lg:p-4">
-                            <img src="sparkle.png" className="h-5 w-5 mr-2" />
+                        <button className="bg-black text-white  text-xs md:text-sm  flex  rounded-[4px] p-2 lg:p-4 float-left cursor-pointer">
+                            <img src="sparkle.png" className="h-5 w-5 mr-2 " />
                             <span>Generate Voice</span>
                         </button>
                     </div>

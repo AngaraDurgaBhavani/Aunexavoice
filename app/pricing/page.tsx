@@ -5,7 +5,7 @@ export default function Pricing() {
         
             <div className="bg-gradient-to-bl from-gray-50 to-purple-100 min-h-screen pt-8">
                 <div className="flex justify-center mb-10">
-                    <button className="bg-white rounded-full text-xs p-1 font-mono border-2 border-gray-200  shadow-md w-16 mb-5 mt-2 cursor-pointer hover:bg-purple-100">PRICING</button>
+                    <button className="bg-white rounded-full text-xs p-2 px-1 py-1 font-mono border-2 border-gray-200  shadow-md w-16 mb-5 mt-2 cursor-pointer  hover:bg-purple-100">PRICING</button>
                 </div>
                 <p className="text-4xl font-serif flex justify-center mb-5 md:text-6xl">Simple Plans That Scale With <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Your Voice Needs </p>
                 <p className="text-sm text-gray-400 flex justify-center mb-2 md:text-xl">Choose a plan that fits your workflow - whether you're creating solo,<br /> developing voice-enabled apps, or running enterprise-level deployments.</p>

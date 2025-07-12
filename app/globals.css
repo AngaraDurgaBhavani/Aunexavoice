@@ -25,7 +25,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 } */
 
-/* body{
- overflow-x: hidden;
- overflow-y: hidden;
-} */
+body{
+ background-color: bg-gradient-to-tr from-violet-200 via-fuchsia-100 to-pink-200;
+ 
+}
