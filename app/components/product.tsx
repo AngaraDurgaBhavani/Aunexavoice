@@ -1,10 +1,10 @@
 
 
-import Secondbutton from "../components/secondbutton";
+import Secondbutton from "./secondbutton";
 
-export default function Page() {
+export default function Product() {
     return (
-        <div className="min-h-screen bg-[#f6edf7] bg-gradient-to-r from-pink-150 via-purple-200 pt-10 px-4 md:px-10">
+        <div id="product" className="min-h-screen bg-gradient-to-r from-fuchsia-50 via-blue-50 to-fuchsia-50 pt-10 px-4 md:px-10">
 
             <div className="flex items-center gap-4 md:gap-6 mb-6 lg:ml-52 md:pt-20 lg:pt-40">
                 <img src="t.png" className="h-6 w-6 sm:h-7 sm:w-7 rounded-[4px]" />
@@ -26,7 +26,7 @@ export default function Page() {
                 </div>
 
 
-                <div className="w-full lg:w-[480px] xl:w-[520px] bg-gradient-to-br from-slate-50 to-purple-200 rounded-2xl border border-gray-200 shadow-lg shadow-gray-300  p-4  md:mr-60 lg:pl-5 lg:pr-5 lg:mr-20 mt-6 lg:mt-0  md:p-5 lg:p-8">
+                <div className="w-full lg:w-[480px] xl:w-[520px] bg-gradient-to-bl from-fuchsia-100 via-indigo-100 to-neutral-100 rounded-2xl border border-gray-200 shadow-lg shadow-gray-300  p-4  md:mr-60 lg:pl-5 lg:pr-5 lg:mr-20 mt-6 lg:mt-0  md:p-5 lg:p-8">
 
                     <div className="flex flex-wrap gap-2 mb-4">
                         <Secondbutton text="Arabic" />
@@ -51,7 +51,7 @@ export default function Page() {
                         </div>
                         <div className="flex flex-col md:flex-row gap-2">
                             <button className="bg-white flex items-center text-xs sm:text-sm p-2 rounded-[4px] w-full sm:w-[48%]">
-                                <img src="walk.jpg" className="h-6 w-6 mr-2" />
+                                <img src="walk.jpg" className="h-6 w-6 mr-1" />
                                 <span className="flex-1 cursor-pointer">Walker</span>
                                 <img src="menu.png" className="h-6 w-6" />
                             </button>
@@ -64,7 +64,7 @@ export default function Page() {
 
 
                     <div className="mt-5">
-                        <button className="bg-black text-white  text-xs md:text-sm  flex  rounded-[4px] p-2 lg:p-4 float-left cursor-pointer">
+                        <button className="bg-black text-white  text-sm md:text-sm  flex  rounded-[4px] p-2 lg:p-4 float-left cursor-pointer">
                             <img src="sparkle.png" className="h-5 w-5 mr-2 " />
                             <span>Generate Voice</span>
                         </button>

@@ -1,11 +1,11 @@
 
 
-export default function Third() {
+export default function Features() {
     return (
-        <div className="bg-[#f6edf7] bg-gradient-to-l from-purple-200 via-pink-200">
+        <div  id="features" className="bg-white">
 
             <div className="flex justify-center w-full pt-8 mb-2">
-                <button className="bg-gray-50 rounded-xl text-xs p-1 font-mono border-gray-500 shadow-md w-28 mb-2 hover:bg-white/30 backdrop-opacity-[0.5] cursor-pointer">KEY FEATURES</button>
+                <button className="bg-gray-50 rounded-full text-xs p-2   w-28  font-medium border-2 border-gray-200 shadow-md  mb-2 hover:bg-white/30 backdrop-opacity-[0.5] cursor-pointer">KEY FEATURES</button>
             </div>
 
             <div className="flex justify-center mb-5 px-4 text-center">
@@ -14,21 +14,21 @@ export default function Third() {
 
 
             <div className="flex flex-col lg:flex-row justify-center items-center  px-4">
-                <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 mb-4 lg:mb-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center md:pl-5 md:pr-5 rounded-[4px]">
+                <div className="bg-gradient-to-r from-slate-50 via-indigo-50 to-purple-50 p-2 mb-4 lg:mb-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center md:pl-5 md:pr-5 rounded-[4px]">
                     <img src="mic1.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
                     <h1 className="mb-5 mt-3 md:text-xl font-serif">Human-like Voice Generation</h1>
                     <p className="text-xs text-gray-500 pb-20 md:text-sm">Aunexa.ai uses advanced neural synthesis to deliver voices that sound  natural, expressive, and emotionally.</p>
-                  <button className="bg-white rounded-[4px] font-sans text-xs p-3 border border-gray-300 shadow-md cursor-pointer lg:text-sm font-medium">Try Demo</button>
-              
+                    <button className="bg-white rounded-[4px] font-sans text-xs p-3 border border-gray-300 shadow-md cursor-pointer lg:text-sm font-medium">Try Demo</button>
+
                 </div>
-                <div className="bg-gradient-to-br from-gray-50 to-violet-50  max-w-sm w-full h-[300px] flex justify-center items-center rounded-[4px]">
+                <div className="bg-gradient-to-r from-slate-50 via-indigo-50 to-purple-50  max-w-sm w-full h-[300px] flex justify-center items-center rounded-[4px]">
                     <img src="com.png" className="h-48 w-[350px]" />
                 </div>
             </div>
-                
+
 
             <div className="flex flex-col lg:flex-row justify-center items-center  mt-2 px-4">
-                <div className="h-[300px] max-w-sm w-full pt-8 bg-gradient-to-br from-gray-100 to-violet-50 pl-2 rounded-[4px]">
+                <div className="h-[300px] max-w-sm w-full pt-8 bg-gradient-to-r from-slate-50 via-indigo-50 to-purple-50 pl-2 rounded-[4px]">
                     <div className="flex flex-wrap justify-center gap-8  p-2">
                         <div className="h-24 w-36 bg-white rounded-sm shadow-xl flex flex-col justify-center transform -skew-y-2 border-2 border-gray-200">
                             <span><img src="iconspeaker.png" className="h-4 w-4 ml-3 mt-1 border-2 border-gray-200 shadow-md mb-2" /></span>
@@ -38,16 +38,16 @@ export default function Third() {
                         <div className="h-24 w-36 bg-white rounded-sm  shadow-xl flex flex-col justify-center transform skew-y-4 border-2 border-gray-200">
                             <span><img src="star1.png" className="h-4 w-4 ml-3 mt-1 border-2 border-gray-200 shadow-md mb-2" /></span>
                             <span className="text-xs font-medium ml-2">Creative and Innovative</span>
-                             <span ><img src="w2.png" className="h-8 w-24 pt-1" /></span>
+                            <span ><img src="w2.png" className="h-8 w-24 pt-1" /></span>
                         </div>
                         <div className="h-24 w-36 bg-white rounded-sm  shadow-xl flex flex-col justify-center border-2 border-gray-200">
                             <span><img src="fireic.png" className="h-3 w-4 ml-3 mt-1 border-2 border-gray-200 shadow-md mb-2" /></span>
                             <span className="text-xs font-medium ml-2">Fiery and passionate</span>
-                             <span ><img src="w2.png" className="h-8 w-24 pt-1" /></span>
+                            <span ><img src="w2.png" className="h-8 w-24 pt-1" /></span>
                         </div>
                     </div>
                 </div>
-  
+
 
                 <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 mt-4 lg:mt-0 max-w-sm w-full h-[300px] flex flex-col items-center text-center rounded-[4px]">
                     <img src="mus.png" className="h-5 w-5 border-2 border-gray-200 shadow-md " />
@@ -59,7 +59,7 @@ export default function Third() {
 
 
             <div className="flex flex-col lg:flex-row justify-center items-center  mt-4 px-4">
-                <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 max-w-sm w-full h-[300px] flex flex-col items-center text-center rounded-[4px] ">
+                <div className="bg-gradient-to-r from-slate-50 via-indigo-50 to-purple-50 p-2 max-w-sm w-full h-[300px] flex flex-col items-center text-center rounded-[4px] ">
                     <img src="paste.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white" />
                     <h1 className="font-serif mt-2 mb-4 text-xl">Real-Time Voice API</h1>
                     <p className="text-xs text-gray-500 pb-20 md:text-sm">Instantly generate and stream voice responses with ultra-low latency- perfect for assistants, bots, and voice-enabled apps.</p>
@@ -75,7 +75,7 @@ export default function Third() {
                 <div className="bg-gradient-to-br from-gray-100 to-violet-100 max-w-sm w-full h-[300px] flex justify-center items-center roundedd-[4px] ">
                     <img src="ball1.png" className="h-32 w-[250px]" />
                 </div>
-                <div className="bg-gradient-to-br from-gray-50 to-violet-50 p-2 max-w-sm w-full h-[300px] flex flex-col items-center text-center rounded-[4px]">
+                <div className="bg-gradient-to-br from-gray-50 to-violet-100 p-2 max-w-sm w-full h-[300px] flex flex-col items-center text-center rounded-[4px]">
                     <img src="brokencon.png" className="h-7 w-7 border-2 border-gray-200 shadow-md bg-white mb-2 " />
                     <h1 className="font-serif mt-2 mb-4 text-xl">Easy Integration</h1>
                     <p className="text-xs text-gray-500 pb-20 md:text-sm">Connect Aunexa.ai with your platform in minutes using flexible API & SDK support - no complex setup needed.</p>

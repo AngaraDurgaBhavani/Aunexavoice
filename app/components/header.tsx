@@ -11,7 +11,8 @@ export default function Header() {
 
 
   return (
-    <header className="bg-gradient-to-r from-purple-50 via-pink-200 to-pink-200 pt-3 pb-3" >
+
+    <header className="pt-3 pb-5" >
       <div className="h-14">
         <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] py-0.5 flex-wrap w-full ">
           <span className="flex">
@@ -21,20 +22,20 @@ export default function Header() {
           <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
 
           <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
-            <div className="lg:flex lg:justify-center">
-              <Link href="/">
+            <div className="lg:flex lg:justify-center rounded-[4px]">
+              <Link href="/#">
                 <Button text="Home" />
               </Link>
-              <Link href="/product">
+              <Link href="/#product">
                 <Button text="Product" />
               </Link>
-              <Link href="/features">
+              <Link href="/#features">
                 <Button text="Features" />
               </Link>
-              <Link href="/pricing">
+              <Link href="/#pricing">
                 <Button text="Pricing" />
               </Link>
-              <Link href="/about">
+              <Link href="/#about">
                 <Button text="About" />
               </Link>
               <div className="pt-1">
