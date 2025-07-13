@@ -22,7 +22,7 @@ export default function Header() {
           <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)} />
 
           <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
-            <div className="lg:flex lg:justify-center rounded-[4px]">
+            <div className="lg:flex lg:justify-center   bg-white/30 backdrop-opacity-[0.5] rounded-2xl">
               <Link href="/#">
                 <Button text="Home" />
               </Link>
@@ -38,15 +38,14 @@ export default function Header() {
               <Link href="/#about">
                 <Button text="About" />
               </Link>
-              <div className="pt-1">
-                <button className="bg-white text-sm text-gray-800 rounded-[4px] translate-y-[-3px] ml-10 md:ml-20 px-4 py-2 cursor-pointer hover:bg-violet-100 md:text-xl">Get  Started</button>
-              </div>
+             
             </div>
+             <div className="pt-1">
+                <button className="bg-white text-sm text-gray-800 rounded-[4px] translate-y-[2px] ml-10 md:ml-20 px-4 py-2 cursor-pointer hover:bg-violet-100 md:text-xl">Get  Started</button>
+              </div>
           </nav>
         </div>
       </div>
     </header>
   )
 }
-
-
